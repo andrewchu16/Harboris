@@ -2,6 +2,7 @@
 
 import React from "react";
 import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
 
 /**
  * 1. Create a new <div> and attach it to the document body.
@@ -24,8 +25,8 @@ function injectApp() {
     position: "fixed",
     top: "0",
     right: "0",
-    width: "300px",
-    height: "100vh",
+    width: "400px",
+    height: "700px",
     zIndex: 999999, // make sure it's on top
   });
 
@@ -33,28 +34,7 @@ function injectApp() {
 
   // Create the root for React 18+
   const root = createRoot(appContainer);
-  root.render(<InjectedComponent />);
-}
-
-// A simple React component that displays a rectangle with text
-function InjectedComponent() {
-  return (
-    <div
-      style={{
-        width: "100%",
-        height: "100%",
-        backgroundColor: "white",
-        borderLeft: "2px solid #ccc",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <h2>Hello from your Chrome Extension!</h2>
-      <p>This is an injected React component.</p>
-    </div>
-  );
+  root.render(<App />);
 }
 
 // Run the injection as soon as the content script is loaded

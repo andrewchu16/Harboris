@@ -1,6 +1,6 @@
 {
-  "name": "Vite React Injected Extension",
-  "description": "Inject a rectangle on the right side of every page using Vite + React",
+  "name": "Harboris Extension",
+  "description": "The official Harboris extension",
   "version": "1.0.0",
   "manifest_version": 3,
   "permissions": [],

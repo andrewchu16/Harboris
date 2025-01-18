@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { MemoryRouter, Route, Routes } from "react-router";
+import NavLayout from "./components/layouts/NavLayout/NavLayout";
+import Home from "./pages/home/Home";
+import Cart from "./pages/cart/Cart";
+import Confirmation from "./pages/confirmation/Confirmation";
+import Product from "./pages/product/Product";
+import ViewOrder from "./pages/viewOrder/ViewOrder";
+import NotFound from "./pages/notFound/NotFound";
+import Profile from "./pages/profile/Profile";
+import Helmet from "react-helmet";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Helmet>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=account_circle,shopping_cart"
+        />
+      </Helmet>
+      <MemoryRouter>
+        <Routes>
+          <Route element={<NavLayout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/confirmation" element={<Confirmation />} />
+            <Route path="/product" element={<Product />} />
+            <Route path="/view-order" element={<ViewOrder />} />
+            <Route path="*" element={<NotFound />} />
+            <Route path="/profile" element={<Profile />} />
+          </Route>
+        </Routes>
+      </MemoryRouter>
     </>
-  )
+  );
 }
-
-export default App
