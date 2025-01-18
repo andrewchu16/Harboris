@@ -9,4 +9,5 @@
   width: 400px;
   height: 600px;
   border-radius: 10px; /* idk */
+  box-sizing: border-box;
 }
