@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "permissions": [],
+  "actions": {
+    "default_icon": "assets/icon.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.google.com/*"],
