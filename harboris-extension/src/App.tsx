@@ -7,17 +7,10 @@ import Product from "./pages/product/Product";
 import ViewOrder from "./pages/viewOrder/ViewOrder";
 import NotFound from "./pages/notFound/NotFound";
 import Profile from "./pages/profile/Profile";
-import Helmet from "react-helmet";
 
 export default function App() {
   return (
     <>
-      <Helmet>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=account_circle,shopping_cart"
-        />
-      </Helmet>
       <MemoryRouter>
         <Routes>
           <Route element={<NavLayout />}>

@@ -1,26 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-:root {
+#harboris-ext-container {
   font-family: Helvetica, "Open Sans", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color-scheme: light only;
 }
 
 *,
-:root {
+:root, #harboris-ext-container * {
   --primary: #000;
-  --background: #fff;
-  --accent-1: #ff7096;
-  --accent-2: #ff477e;
+  --secondary: #fff;
+  --accent-1: #0076d8;
+  --accent-2: #005daa;
 
   padding: 0;
   margin: 0;
-}
-
-#ext-root {
-  background-color: aqua;
 }
 
 a {

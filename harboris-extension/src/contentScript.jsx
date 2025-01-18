@@ -3,6 +3,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
+import "./index.css";
 
 /**
  * 1. Create a new <div> and attach it to the document body.
@@ -10,7 +11,7 @@ import App from "./App.tsx";
  */
 
 function injectApp() {
-  const containerId = "my-chrome-extension-container";
+  const containerId = "harboris-ext-container";
 
   // Avoid reinjecting if it already exists
   if (document.getElementById(containerId)) {
@@ -18,7 +19,10 @@ function injectApp() {
   }
 
   const appContainer = document.createElement("div");
+  const shadowRoot = appContainer.attachShadow({ mode: 'open' });
   appContainer.id = containerId;
+
+  const appRoot = document.createElement("div");
 
   // Style so it's fixed to the right side of the viewport
   Object.assign(appContainer.style, {
