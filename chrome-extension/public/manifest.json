@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Harboris Extension",
+  "version": "1.0.0",
+  "description": "The Harboris Extension",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "scripting", "storage"]
+}
