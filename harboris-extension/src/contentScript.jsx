@@ -24,10 +24,11 @@ function injectApp() {
   // Style so it's fixed to the right side of the viewport
   Object.assign(appContainer.style, {
     position: "fixed",
-    top: "0",
-    right: "0",
+    top: "10px",
+    right: "10px",
     width: "400px",
     height: "700px",
+
     zIndex: 999999, // make sure it's on top
   });
 
