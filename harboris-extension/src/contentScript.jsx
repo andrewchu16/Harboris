@@ -19,10 +19,7 @@ function injectApp() {
   }
 
   const appContainer = document.createElement("div");
-  const shadowRoot = appContainer.attachShadow({ mode: 'open' });
   appContainer.id = containerId;
-
-  const appRoot = document.createElement("div");
 
   // Style so it's fixed to the right side of the viewport
   Object.assign(appContainer.style, {
