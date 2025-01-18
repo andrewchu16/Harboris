@@ -11,10 +11,19 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*/*", "http://*/*"],
-      "js": ["contentScript.js"]
+      "matches": ["<all_urls>"],
+      "js": ["/assets/js/initializeUI.js"],
+      "css": ["*.css"],
+      "run_at": "document_end",
+      "all_frames": true
     }
   ],
-  "permissions": ["activeTab", "scripting", "storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["/react/index.js", "/react/vendor.js", "/react/index.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
   "host_permissions": ["http://*/*", "https://*/*"]
 }

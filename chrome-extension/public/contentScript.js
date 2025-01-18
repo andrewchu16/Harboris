@@ -1,1 +1,1 @@
-console.log("contentScript!!");
+console.log("contentScript");

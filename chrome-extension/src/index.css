@@ -19,6 +19,10 @@
   margin: 0;
 }
 
+#ext-root {
+  background-color: aqua;
+}
+
 a {
   text-decoration: none;
   color: var(--primary);
