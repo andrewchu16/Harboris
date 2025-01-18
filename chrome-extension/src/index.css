@@ -11,5 +11,6 @@
 body {
   margin: 0;
   width: 352px;
-  height: 772px;
+  height: 600px;
+  border-radius: 10px; /* idk */
 }

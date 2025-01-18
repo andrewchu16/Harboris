@@ -1,24 +1,15 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-import { viteStaticCopy } from "vite-plugin-static-copy";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [
-    react(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: "public/manifest.json",
-          dest: ".",
-        },
-      ],
-    }),
-  ],
+  plugins: [react()],
   build: {
-    outDir: "build",
+    outDir: 'dist',  // Output directory
     rollupOptions: {
       input: {
-        main: "./index.html",
+        popup: 'index.html',  // Main entry point for the popup
+        background: 'public/background.js',
+        content: 'public/contentScript.js',
       },
     },
   },
