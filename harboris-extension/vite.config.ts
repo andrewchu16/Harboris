@@ -14,6 +14,7 @@ export default defineConfig({
         entryFileNames: "[name].js",
       },
     },
+    assetsInlineLimit: 100000000, // inline all assets
     outDir: "dist", // output folder
     emptyOutDir: false, // to avoid wiping out once we build multiple times
   },

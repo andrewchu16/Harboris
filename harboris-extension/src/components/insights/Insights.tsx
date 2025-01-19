@@ -2,8 +2,6 @@ import Card from "../layouts/card/Card";
 import Section from "../layouts/section/Section";
 import handmLogo from "../../assets/h-and-m-logo.svg";
 import redShirt from "../../assets/red-shirt.png";
-import frontDesk from "../../assets/front-desk.svg";
-import mapVillage1 from "../../assets/map-village1.png";
 import arrowForward from "../../assets/arrow-forward.svg";
 import { Link } from "react-router";
 import airpods from "../../assets/airpods.png";
@@ -96,7 +94,7 @@ export default function Insights() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${airpods}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <img
@@ -107,7 +105,7 @@ export default function Insights() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${moisturizer}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <div
@@ -424,7 +422,7 @@ export default function Insights() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${brain}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <img
@@ -435,7 +433,7 @@ export default function Insights() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${dollarSign}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <img
@@ -446,7 +444,7 @@ export default function Insights() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${pig}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <div

@@ -98,7 +98,7 @@ export default function Orders() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${greySweater}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <img
@@ -109,7 +109,7 @@ export default function Orders() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${blackDress}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <div
@@ -581,7 +581,7 @@ export default function Orders() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${airpods}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <img
@@ -592,7 +592,7 @@ export default function Orders() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${homepod}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <img
@@ -603,7 +603,7 @@ export default function Orders() {
                 borderRadius: "8px",
                 boxSizing: "border-box",
                 border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                background: `url(${airtag}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
               }}
             />
             <div
