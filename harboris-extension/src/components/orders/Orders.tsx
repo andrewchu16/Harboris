@@ -17,9 +17,50 @@ import airpods from "../../assets/airpods.png";
 import homepod from "../../assets/homepods.png";
 import airtag from "../../assets/airtag.png";
 
+import { useState } from "react";
+
 export default function Orders() {
+  const [tabIndex, setTabIndex] = useState(0);
   return (
     <>
+    <Section>
+        <div
+      style={{
+        display: "flex",
+        height: "50px",
+        justifyContent: "space-between",
+        alignItems: "center",
+        flexShrink: 0,
+        alignSelf: "stretch",
+        borderRadius: "100px",
+        border: "0.5px solid #E1E1E1",
+        background: "#F0F0F0",
+        boxSizing: "border-box",
+      }}
+    >
+          <button
+            style={{
+              width: "100%",
+              height: "100%",
+              borderRadius: "100px",
+              padding: "0px",
+              fontWeight: tabIndex === 0 ? "600" : "400",
+              background: tabIndex === 0 ? "#FFF" : "#F0F0F0",
+              borderWidth: "0px",
+              transition: "background 0.2s",
+              color: "#000",
+            }}
+            onClick={() => setTabIndex(0)}
+          >
+            <Link to="/product" style={{
+              textDecoration: "none",
+              color: "#000",
+            }}>
+              Check Current Page
+            </Link>
+          </button>
+        </div>
+    </Section>
       <Section>
         <h2
           style={{
