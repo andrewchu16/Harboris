@@ -10,6 +10,8 @@ export default function NavLayout() {
         padding: "24px",
         flexDirection: "column",
         alignItems: "flex-start",
+        overflowY: "auto",
+        overflowX: "hidden",
         gap: "12px",
         width: "400px",
         height: "700px",
@@ -45,7 +47,7 @@ export default function NavLayout() {
           fill="url(#paint0_angular_8_1991)"
         />
         <g filter="url(#filter0_b_8_1991)">
-          <rect width="400" height="720" fill="#F2F7FB" fill-opacity="0.8" />
+          <rect width="400" height="720" fill="#F2F7FB" fillOpacity="0.8" />
         </g>
         <defs>
           <filter
@@ -55,9 +57,9 @@ export default function NavLayout() {
             width="500"
             height="820"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="25" />
             <feComposite
               in2="SourceAlpha"
@@ -79,8 +81,8 @@ export default function NavLayout() {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(181.411 101.198) rotate(-23.604) scale(236.004 583.052)"
           >
-            <stop stop-color="#DDDF00" />
-            <stop offset="1" stop-color="#FF5C8A" />
+            <stop stopColor="#DDDF00" />
+            <stop offset="1" stopColor="#FF5C8A" />
           </radialGradient>
         </defs>
       </svg>

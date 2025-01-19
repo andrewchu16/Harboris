@@ -7,6 +7,7 @@ import Product from "./pages/product/Product";
 import ViewOrder from "./pages/viewOrder/ViewOrder";
 import NotFound from "./pages/notFound/NotFound";
 import Profile from "./pages/profile/Profile";
+import "./app.css";
 
 export default function App() {
   return (
