@@ -79,17 +79,19 @@ export default function Orders() {
               marginBottom: "36px",
             }}
           >
-            <img
-              src={redShirt}
-              style={{
-                aspectRatio: "1/1",
-                width: "68px",
-                borderRadius: "8px",
-                boxSizing: "border-box",
-                border: "1px solid var(--Style-6, #F0F0F0)",
-                background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
-              }}
-            />
+            <Link to="/product">
+              <img
+                src={redShirt}
+                style={{
+                  aspectRatio: "1/1",
+                  width: "68px",
+                  borderRadius: "8px",
+                  boxSizing: "border-box",
+                  border: "1px solid var(--Style-6, #F0F0F0)",
+                  background: `url(${redShirt}) lightgray 50% / contain no-repeat, rgba(255, 255, 255, 0.80)`,
+                }}
+              />
+            </Link>
             <img
               src={greySweater}
               style={{

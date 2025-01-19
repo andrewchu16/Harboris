@@ -9,6 +9,8 @@ import NotFound from "./pages/notFound/NotFound";
 import Profile from "./pages/profile/Profile";
 import "./app.css";
 import DeliveryRange from "./pages/deliveryRange/DeliveryRange";
+import handmLogo from "./assets/h-and-m-logo.svg";
+import greySweater from "./assets/grey-sweater.png";
 
 export default function App() {
   return (
@@ -19,7 +21,17 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/confirmation" element={<Confirmation />} />
-            <Route path="/product" element={<Product />} />
+            <Route
+              path="/product"
+              element={
+                <Product
+                  companyLogo={handmLogo}
+                  companyName={"H&M"}
+                  productImage={greySweater}
+                  price={29.99}
+                  productName={"V-Neck Cardigan"} icon={"h"}                />
+              }
+            />
             <Route path="/view-order" element={<ViewOrder />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/profile" element={<Profile />} />
