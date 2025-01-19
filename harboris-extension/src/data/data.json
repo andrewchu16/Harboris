@@ -1,0 +1,155 @@
+{
+  "companies": [
+    {
+      "id": "0b9e287b-4214-427c-bcd0-ab7bdc2ea7ab",
+      "name": "H&M",
+      "logo": "https://example.com/logo1.png",
+      "website": "https://company1.com",
+      "trustScore": 90.66
+    },
+    {
+      "id": "01491351-d0db-438e-ade0-0f1e43757138",
+      "name": "Company 2",
+      "logo": "https://example.com/logo2.png",
+      "website": "https://company2.com",
+      "trustScore": 12.62
+    },
+    {
+      "id": "ddc23739-040e-41dc-a6a0-e465ea443e76",
+      "name": "Company 3",
+      "logo": "https://example.com/logo3.png",
+      "website": "https://company3.com",
+      "trustScore": 67.27
+    },
+    {
+      "id": "0c638cb4-b5f3-43c0-b63b-14592bf3cb67",
+      "name": "Company 4",
+      "logo": "https://example.com/logo4.png",
+      "website": "https://company4.com",
+      "trustScore": 3.16
+    },
+    {
+      "id": "201a967b-5abd-4e92-952c-6182524b056a",
+      "name": "Company 5",
+      "logo": "https://example.com/logo5.png",
+      "website": "https://company5.com",
+      "trustScore": 46.07
+    }
+  ],
+  "users": [
+    {
+      "id": "7f36c5c7-6a8d-4c7b-b56b-6d9e1d8f5718",
+      "name": "User 1",
+      "email": "user1@example.com",
+      "location": "New York"
+    },
+    {
+      "id": "5c3783e5-292d-4a3d-8ff8-d2f3a2c3ad6a",
+      "name": "User 2",
+      "email": "user2@example.com",
+      "location": "San Francisco"
+    },
+    {
+      "id": "c4f3c67c-2b2e-4f6b-939c-b09dbbf172a6",
+      "name": "User 3",
+      "email": "user3@example.com",
+      "location": "London"
+    },
+    {
+      "id": "8730c8b6-f9b7-45a8-93a1-2d9a92fcb43a",
+      "name": "User 4",
+      "email": "user4@example.com",
+      "location": null
+    },
+    {
+      "id": "e3f5c6fa-348f-4e8c-b44b-9b78f7e473b1",
+      "name": "User 5",
+      "email": "user5@example.com",
+      "location": "Tokyo"
+    }
+  ],
+  "items": [
+    {
+      "id": "46ebed37-514f-4697-b7b5-15b92bb798d7",
+      "name": "Item 1",
+      "price": 195.45,
+      "quantity": 72,
+      "image": "https://example.com/item1.png"
+    },
+    {
+      "id": "fae22794-0f83-43b8-9952-425da1e2f474",
+      "name": "Item 2",
+      "price": 83.29,
+      "quantity": 44,
+      "image": "https://example.com/item2.png"
+    },
+    {
+      "id": "ef1a368f-7bde-4d9c-aafb-6dcb7c5c5373",
+      "name": "Item 3",
+      "price": 14.67,
+      "quantity": 30,
+      "image": "https://example.com/item3.png"
+    }
+  ],
+  "crates": [
+    {
+      "id": "22966fa7-b41d-4e7c-94e0-2e9a890ae6f5",
+      "ownerId": "7f36c5c7-6a8d-4c7b-b56b-6d9e1d8f5718",
+      "name": "Crate 1",
+      "companyId": "0b9e287b-4214-427c-bcd0-ab7bdc2ea7ab",
+      "items": [
+        {
+          "id": "46ebed37-514f-4697-b7b5-15b92bb798d7",
+          "name": "Item 1",
+          "price": 195.45,
+          "quantity": 72,
+          "image": "https://example.com/item1.png"
+        }
+      ],
+      "fulfilled": false
+    },
+    {
+      "id": "22966fa7-b41d-4e7c-94e0-2e9a890ae1df",
+      "ownerId": "7f36c5c7-6a8d-4c7b-b56b-6d9e1d8f5718",
+      "name": "Crate 2",
+      "companyId": "0b9e287b-4214-427c-bcd0-ab7bdc2ea7ab",
+      "items": [
+        {
+          "id": "46ebed37-514f-4697-b7b5-15b92bb798d7",
+          "name": "Item 1",
+          "price": 195.45,
+          "quantity": 36,
+          "image": "https://example.com/item1.png"
+        }
+      ],
+      "fulfilled": true
+    }
+  ],
+  "containers": [
+    {
+      "id": "01f31eb5-c8b1-40fa-a8d2-52a34bb17a0a",
+      "name": "Container 1",
+      "crates": [
+        {
+          "id": "22966fa7-b41d-4e7c-94e0-2e9a890ae6f5",
+          "ownerId": "7f36c5c7-6a8d-4c7b-b56b-6d9e1d8f5718",
+          "name": "Crate 1",
+          "companyId": "0b9e287b-4214-427c-bcd0-ab7bdc2ea7ab",
+          "items": [
+            {
+              "id": "46ebed37-514f-4697-b7b5-15b92bb798d7",
+              "name": "Item 1",
+              "price": 195.45,
+              "quantity": 72,
+              "image": "https://example.com/item1.png"
+            }
+          ]
+        }
+      ],
+      "maxCrates": 10,
+      "timeCreated": "2024-12-20T12:00:00",
+      "timeExpires": "2025-06-20T12:00:00",
+      "location": "Warehouse A"
+    }
+  ]
+}

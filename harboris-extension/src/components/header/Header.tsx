@@ -9,21 +9,24 @@ export default function Header() {
         alignItems: "center",
         alignSelf: "stretch",
         width: "100%",
-        marginBottom: "12px",
       }}
     >
-      <h1
-        style={{
-          color: "#000",
-          fontSize: "24px",
-          fontStyle: "normal",
-          fontFamily: "Helvetica",
-          fontWeight: 500,
-          lineHeight: "120%" /* 28.8px */,
-        }}
-      >
-        Harboris
-      </h1>
+      <Link to="/" style={{
+        textDecoration: "none",
+      }}>
+        <h1
+          style={{
+            color: "#000",
+            fontSize: "24px",
+            fontStyle: "normal",
+            fontFamily: "Helvetica",
+            fontWeight: 500,
+            lineHeight: "120%" /* 28.8px */,
+          }}
+        >
+          Harboris
+        </h1>
+      </Link>
       <nav
         style={{
           display: "flex",

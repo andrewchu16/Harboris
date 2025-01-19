@@ -6,4 +6,5 @@ export default interface Crate {
     name: string;
     companyId: string;
     items: Item[];
+    fulfilled: boolean;
 }

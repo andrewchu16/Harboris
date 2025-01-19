@@ -6,7 +6,7 @@ import App from "./App.tsx";
 
 /**
  * 1. Create a new <div> and attach it to the document body.
- * 2. Render our React component inside that <div>.
+ * 2. Use a Shadow DOM to encapsulate styles and render our React component inside it.
  */
 
 function injectApp() {
@@ -17,6 +17,7 @@ function injectApp() {
     return;
   }
 
+  // Create the app container and attach it to the document body
   const appContainer = document.createElement("div");
   appContainer.id = containerId;
 
@@ -27,14 +28,20 @@ function injectApp() {
     right: "10px",
     width: "400px",
     height: "700px",
-
     zIndex: 999999, // make sure it's on top
   });
 
   document.body.appendChild(appContainer);
 
-  // Create the root for React 18+
-  const root = createRoot(appContainer);
+  // Create a shadow root that wraps the app container
+  const shadowRoot = appContainer.attachShadow({ mode: "open" });
+
+  // Create the React root container inside the shadow root
+  const reactRoot = document.createElement("div");
+  shadowRoot.appendChild(reactRoot);
+
+  // Create the root for React 18+ and render the App
+  const root = createRoot(reactRoot);
   root.render(<App />);
 }
 

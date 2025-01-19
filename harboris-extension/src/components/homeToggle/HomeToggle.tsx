@@ -29,6 +29,7 @@ export default function HomeToggle({ tabIndex, setTabIndex }: HomeToggleProps) {
           background: tabIndex === 0 ? "#FFF" : "#F0F0F0",
           borderWidth: "0px",
           transition: "background 0.2s",
+          color: "#000",
         }}
         onClick={() => setTabIndex(0)}
       >
@@ -44,6 +45,7 @@ export default function HomeToggle({ tabIndex, setTabIndex }: HomeToggleProps) {
           background: tabIndex === 1 ? "#FFF" : "#F0F0F0",
           borderWidth: "0px",
           transition: "background 0.2s",
+          color: "#000",
         }}
         onClick={() => setTabIndex(1)}
       >

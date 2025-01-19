@@ -1,5 +1,5 @@
 import { MemoryRouter, Route, Routes } from "react-router";
-import NavLayout from "./components/layouts/NavLayout/NavLayout";
+import NavLayout from "./components/layouts/navLayout/NavLayout";
 import Home from "./pages/home/Home";
 import Cart from "./pages/cart/Cart";
 import Confirmation from "./pages/confirmation/Confirmation";
