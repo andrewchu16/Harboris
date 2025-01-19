@@ -1,4 +1,11 @@
-import React from "react";
+interface ProductProps {
+  companyName: string;
+  productName: string;
+  price: number;
+  productImage: string;
+  companyLogo: string;
+  icon: string;
+}
 
 const Product = ({ 
   companyName, 
@@ -7,7 +14,7 @@ const Product = ({
   productImage, 
   companyLogo, 
   icon 
-}) => {
+}: ProductProps) => {
   const containerStyle = {
     maxWidth: "400px",
     margin: "0 auto",
