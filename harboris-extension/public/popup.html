@@ -16,6 +16,50 @@
         box-shadow: 0px 4px 4px 0px rgba(222, 222, 222, 0.25);
         backdrop-filter: blur(25px);
       }
+      /* Hide the result box initially */
+      #result {
+        display: none; /* Hidden by default */
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 12px;
+        padding: 10px 15px;
+        border-radius: 8px;
+        text-align: left;
+      }
+
+      /* Styling for REAL */
+      .result-real {
+        display: flex;
+        align-items: center;
+        background-color: #e8f9e8; /* Light green background */
+        border: 1px solid #a5d6a5; /* Green border */
+        color: #3c763d; /* Text color */
+      }
+
+      /* Styling for CAUTION */
+      .result-caution {
+        display: flex;
+        align-items: center;
+        background-color: #fff4e5; /* Light orange background */
+        border: 1px solid #ffcc80; /* Orange border */
+        color: #ff9800; /* Text color */
+      }
+
+      /* Styling for FLAG */
+      .result-flag {
+        display: flex;
+        align-items: center;
+        background-color: #fdecea; /* Light red background */
+        border: 1px solid #f44336; /* Red border */
+        color: #d32f2f; /* Text color */
+      }
+
+      .result-message .icon {
+        margin-right: 8px; /* Space between icon and text */
+        font-size: 20px; /* Icon size */
+      }
+
+
       body {
         font-family: Helvetica, sans-serif;
         margin: 0;
@@ -165,7 +209,7 @@
       <!-- One button to do everything -->
       <button id="check-btn">Check Product</button>
     </div>
-    <div id="result"></div>
+    <div id="result" class="result-message"></div>
 
     <script src="popup.js"></script>
   </body>
