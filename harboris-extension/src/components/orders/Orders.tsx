@@ -195,7 +195,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -206,7 +206,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -234,7 +234,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -354,7 +354,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -365,7 +365,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -376,7 +376,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -472,7 +472,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -689,7 +689,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -700,7 +700,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
@@ -728,7 +728,7 @@ export default function Orders() {
                       color: "#444",
                       fontSize: "14px",
                       fontStyle: "normal",
-                      fontWeight: 100,
+                      fontWeight: 300,
                       margin: 0,
                     }}
                   >
