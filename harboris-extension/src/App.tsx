@@ -29,7 +29,8 @@ export default function App() {
                   companyName={"H&M"}
                   productImage={greySweater}
                   price={29.99}
-                  productName={"V-Neck Cardigan"} icon={"h"}                />
+                  productName={"V-Neck Cardigan"} icon={"h"}   
+                  status={"real"}             />
               }
             />
             <Route path="/view-order" element={<ViewOrder />} />
