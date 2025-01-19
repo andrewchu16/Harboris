@@ -3,9 +3,15 @@
   "description": "The official Harboris extension",
   "version": "1.0.0",
   "manifest_version": 3,
-  "permissions": [],
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting"
+    ],
+  "host_permissions": ["https://api.openai.com/*", "https://serpapi.com/*"],
   "action": {
-    "default_icon": "icon.png"
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
