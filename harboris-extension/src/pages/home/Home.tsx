@@ -1,6 +1,6 @@
 import { useState } from "react";
 import HomeToggle from "../../components/homeToggle/HomeToggle";
-import RecentOrders from "../../components/recentOrders/RecentOrders";
+import Orders from "../../components/orders/Orders";
 import Insights from "../../components/insights/Insights";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <HomeToggle tabIndex={tabIndex} setTabIndex={setTabIndex} />
-      {tabIndex === 0 ? <RecentOrders /> : <Insights />}
+      {tabIndex === 0 ? <Orders /> : <Insights />}
     </>
   );
 }

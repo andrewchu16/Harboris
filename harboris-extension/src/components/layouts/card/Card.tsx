@@ -12,7 +12,6 @@ export default function Card({ children }: CardProps) {
         padding: "24px",
         flexDirection: "column",
         alignItems: "flex-start",
-        gap: "36px",
         alignSelf: "stretch",
         borderRadius: "16px",
         border: "0.5px solid #EBEBEB",

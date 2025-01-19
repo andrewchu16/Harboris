@@ -8,8 +8,8 @@ export default function Section({ children }: SectionProps) {
   return (
     <section
       style={{
-        padding: "24px",
-        width: "100%"
+        paddingTop: "24px",
+        width: "100%",
       }}
     >
       {children}

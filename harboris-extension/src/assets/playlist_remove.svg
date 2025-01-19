@@ -1,0 +1,10 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="playlist_remove">
+<mask id="mask0_15_99" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<rect id="Bounding box" width="20" height="20" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_15_99)">
+<path id="playlist_remove_2" d="M12.1025 14.7115L11.3285 13.9375L13.2868 12L11.3285 10.0417L12.1025 9.26771L14.04 11.226L15.9983 9.26771L16.7725 10.0417L14.8141 12L16.7725 13.9375L15.9983 14.7115L14.04 12.7531L12.1025 14.7115ZM3.24829 10.5208V9.4375H9.24829V10.5208H3.24829ZM3.24829 7.39583V6.3125H12.2483V7.39583H3.24829ZM3.24829 4.27083V3.1875H12.2483V4.27083H3.24829Z" fill="#1C1B1F"/>
+</g>
+</g>
+</svg>

@@ -8,6 +8,7 @@ import ViewOrder from "./pages/viewOrder/ViewOrder";
 import NotFound from "./pages/notFound/NotFound";
 import Profile from "./pages/profile/Profile";
 import "./app.css";
+import DeliveryRange from "./pages/deliveryRange/DeliveryRange";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/view-order" element={<ViewOrder />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/delivery-range" element={<DeliveryRange />} />
           </Route>
         </Routes>
       </MemoryRouter>

@@ -19,7 +19,7 @@
 
 /* Style for Firefox */
 * {
-    scrollbar-width: thin;
-    scrollbar-gutter: stable both-edges;
+    scrollbar-width:none;
+    scrollbar-gutter: auto both-edges;
     scrollbar-color: #e0e0e0 transparent; /* Lighter color */
 }
