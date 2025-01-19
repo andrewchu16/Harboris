@@ -21,16 +21,6 @@ function injectApp() {
   const appContainer = document.createElement("div");
   appContainer.id = containerId;
 
-  // Style so it's fixed to the right side of the viewport
-  Object.assign(appContainer.style, {
-    position: "fixed",
-    top: "10px",
-    right: "10px",
-    width: "400px",
-    height: "700px",
-    zIndex: 999999, // make sure it's on top
-  });
-
   document.body.appendChild(appContainer);
 
   // Create a shadow root that wraps the app container

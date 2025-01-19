@@ -10,8 +10,6 @@ export default function NavLayout() {
         padding: "24px",
         flexDirection: "column",
         alignItems: "flex-start",
-        overflowY: "auto",
-        overflowX: "hidden",
         gap: "12px",
         width: "400px",
         height: "700px",

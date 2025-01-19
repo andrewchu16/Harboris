@@ -7,7 +7,6 @@ import Product from "./pages/product/Product";
 import ViewOrder from "./pages/viewOrder/ViewOrder";
 import NotFound from "./pages/notFound/NotFound";
 import Profile from "./pages/profile/Profile";
-import "./app.css";
 import DeliveryRange from "./pages/deliveryRange/DeliveryRange";
 import handmLogo from "./assets/h-and-m-logo.svg";
 import greySweater from "./assets/grey-sweater.png";
